@@ -8,7 +8,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 @MapperScan("com.baizhi.mapper")
 public class JspApplication {
     public static void main(String[] args) {
-
+//我是zm
         SpringApplication.run(JspApplication.class, args);
     }
 
