@@ -16,6 +16,7 @@ public class Testcontroller {
     private UserMapper userMapper;
     @RequestMapping("test")
     public List<User> test() {
+        System.out.println("我是贺俊杰");
         List<User> users = userMapper.selectAll();
         return users ;
     }
