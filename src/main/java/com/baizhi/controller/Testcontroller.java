@@ -25,7 +25,5 @@ public class Testcontroller {
     public void m1() {
         System.out.println("你叫啥");
     }
-    public void m1(){
-        System.out.println("我叫贺俊杰");
-    }
+
 }
