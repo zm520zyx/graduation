@@ -25,8 +25,4 @@ public class Testcontroller {
     public void m1() {
         System.out.println("贺俊杰");
     }
-    public void m2(){
-        System.out.println("北京欢迎你");
-    }
-
 }
