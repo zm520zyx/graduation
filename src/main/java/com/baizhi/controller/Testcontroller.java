@@ -20,4 +20,7 @@ public class Testcontroller {
         List<User> users = userMapper.selectAll();
         return users ;
     }
+    public void m1(){
+        System.out.println("我叫贺俊杰");
+    }
 }
