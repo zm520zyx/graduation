@@ -6,7 +6,7 @@
         </layout>
     </appender>
     <root level="info">
-        <appender-ref ref="stdout"/> 
+        <appender-ref ref="stdout"/>
     </root>
     <logger name="com.baizhi.mapper" level="DEBUG"/>
 </configuration>

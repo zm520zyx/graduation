@@ -14,11 +14,16 @@ import java.util.List;
 public class Testcontroller {
     @Autowired
     private UserMapper userMapper;
+
     @RequestMapping("test")
     public List<User> test() {
         System.out.println("我是贺俊杰");
         List<User> users = userMapper.selectAll();
-        return users ;
+        return users;
+    }
+
+    public void m1() {
+        System.out.println("你叫啥");
     }
     public void m1(){
         System.out.println("我叫贺俊杰");
