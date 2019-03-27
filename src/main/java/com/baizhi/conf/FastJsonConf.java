@@ -22,5 +22,12 @@ public class FastJsonConf {
         fastConverter.setFastJsonConfig(fastJsonConfig);
         HttpMessageConverter<?> converter = fastConverter;
         return new HttpMessageConverters(converter);
+
+        /*
+         * hahha
+         * **/
+        //hahha
+        //ffffff
+
     }
 }
